@@ -120,16 +120,11 @@ spring:
 
 修改前：
 
-```java
-@SpringBootApplication(exclude = {RedisAutoConfiguration.class})
-```
+
 
 修改后：
 
 
-```java
-@SpringBootApplication
-```
 
 ### Elasticsearch 搜索引擎
 
