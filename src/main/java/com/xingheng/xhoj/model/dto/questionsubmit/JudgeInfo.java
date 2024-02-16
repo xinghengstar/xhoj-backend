@@ -20,5 +20,5 @@ public class JudgeInfo {
     /**
      * 消耗内存 (kb)
      */
-    private Long memoryLimit;
+    private Long memory;
 }

@@ -12,11 +12,11 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
   # session 配置
-  session:
+#  session:
     # todo 取消注释开启分布式 session（须先配置 Redis）
     # store-type: redis
     # 30 天过期
-    timeout: 2592000
+#    timeout: 259200
   # 数据库配置
   # todo 需替换配置
   datasource:
@@ -101,3 +101,6 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.xingheng.xhoj.controller
+# 代码沙箱配置
+codesandbox:
+  type: remote
